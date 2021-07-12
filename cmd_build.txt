@@ -1,0 +1,200 @@
+the --offline flag to use the cache for registry queries.
+[build:grunt     ] $ grunt
+[build:grunt     ] Running "exec:build-protobuf" (exec) task
+[build:grunt     ] >> warning You don't appear to have an internet connection. Try the --offline flag to use the cache for registry queries.
+[build:grunt     ] $ yarn build-module-protobuf
+[build:grunt     ] >> warning You don't appear to have an internet connection. Try the --offline flag to use the cache for registry queries.
+[build:grunt     ] $ pbjs --target static-module --wrap commonjs --out ts/protobuf/compiled.js protos/*.proto && pbts --out ts/protobuf/compiled.d.ts ts/protobuf/compiled.js
+[build:grunt     ]
+[build:grunt     ] Running "exec:transpile" (exec) task
+[build:grunt     ] >> warning You don't appear to have an internet connection. Try the --offline flag to use the cache for registry queries.
+[build:grunt     ] $ tsc
+[build:grunt     ]
+[build:grunt     ] Running "concat:components" (concat) task
+[build:grunt     ]
+[build:grunt     ] Running "concat:libtextsecurecomponents" (concat) task
+[build:grunt     ]
+[build:grunt     ] Running "concat:test" (concat) task
+[build:grunt     ]
+[build:grunt     ] Running "concat:libtextsecuretest" (concat) task
+[build:grunt     ]
+[build:grunt     ] Running "copy:deps" (copy) task
+[build:grunt     ] Copied 2 files
+[build:grunt     ]
+[build:grunt     ] Running "sass:dev" (sass) task
+[build:grunt     ]
+[build:grunt     ] Running "gitinfo" task
+[build:grunt     ]
+[build:grunt     ] Running "getExpireTime" task
+[build:grunt     ]
+[build:grunt     ] Done.
+[build:grunt     ] Done in 55.11s.
+[build:typed-scss]
+[build:typed-scss] > signal-desktop11@5.6.0-beta.1 build:typed-scss C:\Users\min\Desktop\YA\Signal-Desktop
+[build:typed-scss] > tsm sticker-creator
+[build:typed-scss]
+[build:typed-scss] Found 27 files. Generating type defintions...
+[build:typed-scss] [NO GENERATED TYPES] C:/Users/min/Desktop/YA/Signal-Desktop/sticker-creator/_mixins.scss
+[build:typed-scss] [GENERATED TYPES] C:/Users/min/Desktop/YA/Signal-Desktop/sticker-creator/app/stages/DropStage.scss.d.ts
+[build:typed-scss] [GENERATED TYPES] C:/Users/min/Desktop/YA/Signal-Desktop/sticker-creator/app/stages/AppStage.scss.d.ts
+[build:typed-scss] [GENERATED TYPES] C:/Users/min/Desktop/YA/Signal-Desktop/sticker-creator/app/stages/UploadStage.scss.d.ts
+[build:typed-scss] [GENERATED TYPES] C:/Users/min/Desktop/YA/Signal-Desktop/sticker-creator/components/ConfirmModal.scss.d.ts
+[build:typed-scss] [GENERATED TYPES] C:/Users/min/Desktop/YA/Signal-Desktop/sticker-creator/app/index.scss.d.ts
+[build:typed-scss] [GENERATED TYPES] C:/Users/min/Desktop/YA/Signal-Desktop/sticker-creator/app/stages/ShareStage.scss.d.ts
+[build:typed-scss] [GENERATED TYPES] C:/Users/min/Desktop/YA/Signal-Desktop/sticker-creator/components/StickerGrid.scss.d.ts
+[build:typed-scss] [GENERATED TYPES] C:/Users/min/Desktop/YA/Signal-Desktop/sticker-creator/app/stages/MetaStage.scss.d.ts
+[build:typed-scss] [GENERATED TYPES] C:/Users/min/Desktop/YA/Signal-Desktop/sticker-creator/components/ShareButtons.scss.d.ts
+[build:typed-scss] [GENERATED TYPES] C:/Users/min/Desktop/YA/Signal-Desktop/sticker-creator/components/StickerFrame.scss.d.ts
+[build:typed-scss] [GENERATED TYPES] C:/Users/min/Desktop/YA/Signal-Desktop/sticker-creator/elements/Button.scss.d.ts
+[build:typed-scss] [GENERATED TYPES] C:/Users/min/Desktop/YA/Signal-Desktop/sticker-creator/elements/ConfirmDialog.scss.d.ts
+[build:typed-scss] [GENERATED TYPES] C:/Users/min/Desktop/YA/Signal-Desktop/sticker-creator/components/StickerPackPreview.scss.d.ts
+[build:typed-scss] [GENERATED TYPES] C:/Users/min/Desktop/YA/Signal-Desktop/sticker-creator/elements/LabeledInput.scss.d.ts
+[build:typed-scss] [GENERATED TYPES] C:/Users/min/Desktop/YA/Signal-Desktop/sticker-creator/elements/DropZone.scss.d.ts
+[build:typed-scss] [GENERATED TYPES] C:/Users/min/Desktop/YA/Signal-Desktop/sticker-creator/elements/LabeledCheckbox.scss.d.ts
+[build:typed-scss] [GENERATED TYPES] C:/Users/min/Desktop/YA/Signal-Desktop/sticker-creator/elements/CopyText.scss.d.ts
+[build:typed-scss] [GENERATED TYPES] C:/Users/min/Desktop/YA/Signal-Desktop/sticker-creator/elements/MessageBubble.scss.d.ts
+[build:typed-scss] [GENERATED TYPES] C:/Users/min/Desktop/YA/Signal-Desktop/sticker-creator/elements/MessageSticker.scss.d.ts
+[build:typed-scss] [GENERATED TYPES] C:/Users/min/Desktop/YA/Signal-Desktop/sticker-creator/elements/MessageMeta.scss.d.ts
+[build:typed-scss] [GENERATED TYPES] C:/Users/min/Desktop/YA/Signal-Desktop/sticker-creator/elements/PageHeader.scss.d.ts
+[build:typed-scss] [GENERATED TYPES] C:/Users/min/Desktop/YA/Signal-Desktop/sticker-creator/elements/StoryRow.scss.d.ts
+[build:typed-scss] [GENERATED TYPES] C:/Users/min/Desktop/YA/Signal-Desktop/sticker-creator/elements/ProgressBar.scss.d.ts
+[build:typed-scss] [GENERATED TYPES] C:/Users/min/Desktop/YA/Signal-Desktop/sticker-creator/elements/Toast.scss.d.ts
+[build:typed-scss] [GENERATED TYPES] C:/Users/min/Desktop/YA/Signal-Desktop/sticker-creator/elements/Typography.scss.d.ts
+[build:typed-scss] [GENERATED TYPES] C:/Users/min/Desktop/YA/Signal-Desktop/sticker-creator/elements/StickerPreview.scss.d.ts
+[build:webpack   ]
+[build:webpack   ] > signal-desktop11@5.6.0-beta.1 build:webpack C:\Users\min\Desktop\YA\Signal-Desktop
+[build:webpack   ] > run-p build:webpack:sticker-creator build:webpack:preload build:webpack:sql-worker
+[build:webpack   ]
+[build:webpack   ]
+[build:webpack   ] > signal-desktop11@5.6.0-beta.1 build:webpack:sticker-creator C:\Users\min\Desktop\YA\Signal-Desktop
+[build:webpack   ] > cross-env NODE_ENV=production webpack
+[build:webpack   ]
+[build:webpack   ]
+[build:webpack   ] > signal-desktop11@5.6.0-beta.1 build:webpack:preload C:\Users\min\Desktop\YA\Signal-Desktop
+[build:webpack   ] > cross-env NODE_ENV=production webpack -c webpack-preload.config.ts
+[build:webpack   ]
+[build:webpack   ]
+[build:webpack   ] > signal-desktop11@5.6.0-beta.1 build:webpack:sql-worker C:\Users\min\Desktop\YA\Signal-Desktop
+[build:webpack   ] > cross-env NODE_ENV=production webpack -c webpack-sql-worker.config.ts
+[build:webpack   ]
+[build:webpack   ] asset mainWorker.bundle.js 917 KiB [compared for emit] (name: main)
+[build:webpack   ] runtime modules 123 bytes 1 module
+[build:webpack   ] modules by path ./node_modules/ 750 KiB 30 modules
+[build:webpack   ] modules by path ./ts/ 145 KiB
+[build:webpack   ]   modules by path ./ts/util/*.js 14.6 KiB 8 modules
+[build:webpack   ]   modules by path ./ts/sql/*.js 125 KiB 3 modules
+[build:webpack   ]   modules by path ./ts/logging/*.js 3.72 KiB
+[build:webpack   ]     ./ts/logging/log.js 1.33 KiB [built] [code generated]
+[build:webpack   ]     ./ts/logging/shared.js 2.39 KiB [built] [code generated]
+[build:webpack   ]   ./ts/environment.js 1.51 KiB [built] [code generated]
+[build:webpack   ] 8 modules
+[build:webpack   ] webpack 5.30.0 compiled successfully in 1767 ms
+[build:webpack   ] assets by chunk 4.83 MiB (auxiliary name: main)
+[build:webpack   ]   assets by path *.woff2 2.48 MiB 21 assets
+[build:webpack   ]   assets by path *.woff 2.35 MiB 18 assets
+[build:webpack   ] asset bundle.js 1.59 MiB [compared for emit] [minimized] [big] (name: main) 2 related assets
+[build:webpack   ] asset index.html 700 bytes [compared for emit]
+[build:webpack   ] orphan modules 1.76 MiB [orphan] 175 modules
+[build:webpack   ] runtime modules 1.35 KiB 7 modules
+[build:webpack   ] modules by path ./node_modules/ 624 KiB 407 modules
+[build:webpack   ] modules by path ./sticker-creator/ 1.79 MiB
+[build:webpack   ]   modules by path ./sticker-creator/elements/*.scss 23.8 KiB 28 modules
+[build:webpack   ]   modules by path ./sticker-creator/app/ 8.2 KiB
+[build:webpack   ]     modules by path ./sticker-creator/app/stages/*.scss 7.28 KiB 10 modules
+[build:webpack   ]     modules by path ./sticker-creator/app/*.scss 944 bytes
+[build:webpack   ]       ./sticker-creator/app/index.scss 499 bytes [built] [code generated]
+[build:webpack   ]       ./node_modules/css-loader/dist/cjs.js?modules=true&localsConvention=camelCaseOnly!./node_modules/sass-loader/lib/loader.js!./sticker-creator/app/index.scss 445 bytes [built] [code generated]
+[build:webpack   ]   modules by path ./sticker-creator/components/*.scss 9.42 KiB 10 modules
+[build:webpack   ]   ./sticker-creator/index.tsx + 162 modules 1.75 MiB [built] [code generated]
+[build:webpack   ]
+[build:webpack   ] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[build:webpack   ] This can impact web performance.
+[build:webpack   ] Assets:
+[build:webpack   ]   4d584d5c2069f84a38aaf54e53271081.woff2 (293 KiB)
+[build:webpack   ]   bundle.js (1.59 MiB)
+[build:webpack   ]
+[build:webpack   ] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[build:webpack   ] Entrypoints:
+[build:webpack   ]   main (1.59 MiB)
+[build:webpack   ]       bundle.js
+[build:webpack   ]
+[build:webpack   ]
+[build:webpack   ] WARNING in webpack performance recommendations:
+[build:webpack   ] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[build:webpack   ] For more info visit https://webpack.js.org/guides/code-splitting/
+[build:webpack   ]
+[build:webpack   ] webpack 5.30.0 compiled with 3 warnings in 65626 ms
+[build:webpack   ] asset preload.bundle.js 5.58 MiB [compared for emit] [minimized] (name: main) 1 related asset
+[build:webpack   ] runtime modules 211 bytes 2 modules
+[build:webpack   ] modules by path ./node_modules/ 6.15 MiB 804 modules
+[build:webpack   ] modules by path ./ts/ 4.88 MiB 533 modules
+[build:webpack   ] modules by path ./js/modules/ 104 KiB
+[build:webpack   ]   modules by path ./js/modules/*.js 56.2 KiB
+[build:webpack   ]     optional modules 21.1 KiB [optional] 3 modules
+[build:webpack   ]   modules by path ./js/modules/types/ 47.1 KiB 8 modules
+[build:webpack   ]   ./js/modules/views/initialization.js 1020 bytes [built] [code generated]
+[build:webpack   ] modules by path ./*.js 20.8 KiB
+[build:webpack   ]   ./preload.js 18.9 KiB [built] [code generated]
+[build:webpack   ]   ./preload_utils.js 1.9 KiB [optional] [built] [code generated]
+[build:webpack   ] 30 modules
+[build:webpack   ] webpack 5.30.0 compiled successfully in 66648 ms
+[build:release   ]
+[build:release   ] > signal-desktop11@5.6.0-beta.1 build:release C:\Users\min\Desktop\YA\Signal-Desktop
+[build:release   ] > cross-env SIGNAL_ENV=production yarn build:electron -- --config.directories.output=release
+[build:release   ]
+[build:release   ] yarn run v1.22.10
+[build:release   ] warning You don't appear to have an internet connection. Try the --offline flag to use the cache for registry queries.
+[build:release   ] warning From Yarn 1.0 onwards, scripts don't require "--" for options to be forwarded. In a future version, any explicit "--" will be forwarded as-is to the scripts.
+[build:release   ] $ electron-builder --config.extraMetadata.environment=$SIGNAL_ENV --config.directories.output=release
+[build:release   ]   • electron-builder  version=22.10.5 os=10.0.19042
+[build:release   ]   • loaded configuration  file=package.json ("build" field)
+[build:release   ]   • rebuilding native dependencies  dependencies=better-sqlite3@7.1.4, ffi-napi@4.0.3, mac-screen-capture-permissions@2.0.0, ref-napi@3.0.2, sharp@0.28.1, websocket@1.0.28, ref-napi@1.4.3 platform=win32 arch=x64
+[build:release   ]   • install prebuilt binary  name=mac-screen-capture-permissions version=2.0.0 platform=win32 arch=x64
+[build:release   ]   • build native dependency from sources  name=mac-screen-capture-permissions
+[build:release   ]                                           version=2.0.0
+[build:release   ]                                           platform=win32
+[build:release   ]                                           arch=x64
+[build:release   ]                                           reason=prebuild-install failed with error (run with env DEBUG=electron-builder to get more information)
+[build:release   ]                                           error=prebuild-install info begin Prebuild-install version 6.1.2
+[build:release   ]     prebuild-install WARN install prebuilt binaries enforced with --force!
+[build:release   ]     prebuild-install WARN install prebuilt binaries may be out of date!
+[build:release   ]     prebuild-install info looking for local prebuild @ prebuilds\mac-screen-capture-permissions-v2.0.0-electron-v89-win32-x64.tar.gz
+[build:release   ]     prebuild-install info looking for cached prebuild @ C:\Users\min\AppData\Roaming\npm-cache\_prebuilds\d57462-mac-screen-capture-permissions-v2.0.0-electron-v89-win32-x64.tar.gz
+[build:release   ]     prebuild-install http request GET https://github.com/karaggeorge/mac-screen-capture-permissions/releases/download/v2.0.0/mac-screen-capture-permissions-v2.0.0-electron-v89-win32-x64.tar.gz
+[build:release   ]     prebuild-install WARN install getaddrinfo ENOTFOUND github.com
+[build:release   ]
+[build:release   ]   • install prebuilt binary  name=sharp version=0.28.1 platform=win32 arch=x64
+[build:release   ]   • build native dependency from sources  name=sharp
+[build:release   ]                                           version=0.28.1
+[build:release   ]                                           platform=win32
+[build:release   ]                                           arch=x64
+[build:release   ]                                           reason=prebuild-install failed with error (run with env DEBUG=electron-builder to get more information)
+[build:release   ]                                           error=prebuild-install info begin Prebuild-install version 6.1.2
+[build:release   ]     prebuild-install WARN install prebuilt binaries enforced with --force!
+[build:release   ]     prebuild-install WARN install prebuilt binaries may be out of date!
+[build:release   ]     prebuild-install info looking for local prebuild @ prebuilds\sharp-v0.28.1-electron-v89-win32-x64.tar.gz
+[build:release   ]     prebuild-install info looking for cached prebuild @ C:\Users\min\AppData\Roaming\npm-cache\_prebuilds\26e1d4-sharp-v0.28.1-electron-v89-win32-x64.tar.gz
+[build:release   ]     prebuild-install http request GET https://github.com/lovell/sharp/releases/download/v0.28.1/sharp-v0.28.1-electron-v89-win32-x64.tar.gz[build:release   ]     prebuild-install WARN install getaddrinfo ENOTFOUND github.com
+[build:release   ]
+[build:release   ]   • rebuilding native dependency  name=better-sqlite3 version=7.1.4
+[build:release   ]   • rebuilding native dependency  name=ffi-napi version=4.0.3
+[build:release   ]   • rebuilding native dependency  name=mac-screen-capture-permissions version=2.0.0
+[build:release   ]   • rebuilding native dependency  name=ref-napi version=3.0.2
+[build:release   ]   • rebuilding native dependency  name=sharp version=0.28.1
+[build:release   ]   • rebuilding native dependency  name=websocket version=1.0.28
+[build:release   ]   • rebuilding native dependency  name=ref-napi version=1.4.3
+[build:release   ]   • packaging       platform=win32 arch=x64 electron=13.1.2 appOutDir=release\win-unpacked
+[build:release   ]   • Unpacking electron zip  zipPath=undefined
+[build:release   ]   • building        target=nsis file=release\signal-desktop11-win-5.6.0-beta.1.exe archs=x64 oneClick=true perMachine=false
+[build:release   ]   • building block map  blockMapFile=release\signal-desktop11-win-5.6.0-beta.1.exe.blockmap
+[build:release   ] Done in 323.94s.
+[build:zip       ]
+[build:zip       ] > signal-desktop11@5.6.0-beta.1 build:zip C:\Users\min\Desktop\YA\Signal-Desktop
+[build:zip       ] > node scripts/zip-macos-release.js
+[build:zip       ]
+
+C:\Users\min\Desktop\YA\Signal-Desktop>pkg
+'pkg' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\min\Desktop\YA\Signal-Desktop>
